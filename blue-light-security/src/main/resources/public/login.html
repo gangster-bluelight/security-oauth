@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/login.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<form action="/login" method="post" style="margin-top: 100px">
+    <h1 style="text-align: center;color: cyan">用户登录</h1>
+    <table class="center">
+        <tr >
+            <td>用户名:</td>
+            <td><label for="username"></label><input name="username" id="username" type="text"></td>
+        </tr>
+        <tr>
+            <td>密码:</td>
+            <td><label for="password"></label><input name="password" id="password" type="password"></td>
+        </tr>
+        <tr id="form" style="text-align: center;">
+            <td colspan="2" style="padding-top: 10px">
+                <input type="button" value="登录" onclick="login()">
+                <input type="button" value="重置">
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+
+    $("#username").onclick(function () {
+        const username = $("#username").val().trim();
+        const password = $("#password").val().trim();
+        if (username === "" || password === "") {
+            alert("用户名或密码不能为空")
+        }
+        $.ajax({
+            url: "",
+            type: "POST",
+            data: {
+                "username": username,
+                "password": password
+            }, success: [function (result) {
+                if (result.code !== 200) {
+                    var element=document.getElementById("form");
+
+                    alert(result.message)
+                } else {
+                    location.href = result.data;
+                }
+            }], error: [function (result) {
+
+            }]
+        })
+    })
+</script>
+</body>
+</html>
