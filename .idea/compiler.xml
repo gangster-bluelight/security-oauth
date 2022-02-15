@@ -7,26 +7,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blue-light-oauth" />
         <module name="blue-light-oauth-redis" />
+        <module name="blue-light-jwt" />
+        <module name="blue-light-client1" />
+        <module name="blue-light-oauth" />
+        <module name="blue-light-sso" />
         <module name="blue-light-security" />
         <module name="blue-light-oauth-password" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blue-light-client1" target="11" />
+      <module name="blue-light-jwt" target="11" />
       <module name="blue-light-oauth" target="11" />
       <module name="blue-light-oauth-password" target="11" />
       <module name="blue-light-oauth-redis" target="11" />
       <module name="blue-light-security" target="11" />
+      <module name="blue-light-sso" target="11" />
       <module name="security-oauth" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blue-light-client1" options="-parameters" />
+      <module name="blue-light-jwt" options="-parameters" />
       <module name="blue-light-oauth" options="-parameters" />
       <module name="blue-light-oauth-password" options="-parameters" />
       <module name="blue-light-oauth-redis" options="-parameters" />
       <module name="blue-light-security" options="-parameters" />
+      <module name="blue-light-sso" options="-parameters" />
       <module name="security-oauth" options="-parameters" />
     </option>
   </component>

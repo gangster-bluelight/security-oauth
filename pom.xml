@@ -41,10 +41,17 @@
         <spring-boot-redis.version>2.6.3</spring-boot-redis.version>
         <commons-pool2.version>2.11.1</commons-pool2.version>
         <druid.version>1.2.8</druid.version>
+        <jwt.version>0.9.1</jwt.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!--JWT依赖-->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>

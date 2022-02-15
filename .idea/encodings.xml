@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/blue-light-client1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blue-light-jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blue-light-oauth-password/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blue-light-oauth-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blue-light-oauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blue-light-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blue-light-sso/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

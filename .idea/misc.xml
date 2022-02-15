@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/blue-light-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/blue-light-oauth-password/pom.xml" />
         <option value="$PROJECT_DIR$/blue-light-oauth-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/blue-light-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/blue-light-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/blue-light-client1/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/blue-light-client1/blue-light-client1.iml" filepath="$PROJECT_DIR$/blue-light-client1/blue-light-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blue-light-jwt/blue-light-jwt.iml" filepath="$PROJECT_DIR$/blue-light-jwt/blue-light-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/blue-light-oauth/blue-light-oauth.iml" filepath="$PROJECT_DIR$/blue-light-oauth/blue-light-oauth.iml" group="security-oauth and modules" />
       <module fileurl="file://$PROJECT_DIR$/blue-light-oauth-password/blue-light-oauth-password.iml" filepath="$PROJECT_DIR$/blue-light-oauth-password/blue-light-oauth-password.iml" group="security-oauth and modules" />
       <module fileurl="file://$PROJECT_DIR$/blue-light-oauth-redis/blue-light-oauth-redis.iml" filepath="$PROJECT_DIR$/blue-light-oauth-redis/blue-light-oauth-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/blue-light-security/blue-light-security.iml" filepath="$PROJECT_DIR$/blue-light-security/blue-light-security.iml" group="security-oauth and modules" />
+      <module fileurl="file://$PROJECT_DIR$/blue-light-sso/blue-light-sso.iml" filepath="$PROJECT_DIR$/blue-light-sso/blue-light-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/security-oauth.iml" filepath="$PROJECT_DIR$/.idea/security-oauth.iml" group="security-oauth and modules" />
     </modules>
   </component>
